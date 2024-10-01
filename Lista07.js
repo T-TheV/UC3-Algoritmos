@@ -75,8 +75,10 @@ let substituir = frutas.splice(2,1, "Abacaxi")
 
 let extraia = frutas.slice(0, 3)
 
-let adicionar = frutas.push("Melancia")
+let adicionar = extraia.push("Melancia")
+
 console.log(frutas)
+console.log(extraia)
 */ 
 
 //
@@ -153,7 +155,20 @@ else{
 // Questão 11
 
 /*
+let cidade = "São Paulo";
+let clima = "ensolarado";
+let frase = `Hoje em ${cidade} está ${clima}.`
+let replace = frase.replace("ensolarado", "chuvoso");
+console.log(replace)
+*/
+
+//
+
+// Questão 12
+
+/*
 
 */
 
 //
+

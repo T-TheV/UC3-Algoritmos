@@ -77,7 +77,7 @@ let extraia = frutas.slice(0, 3)
 
 let adicionar = frutas.push("Melancia")
 console.log(frutas)
-*/
+*/ 
 
 //
 

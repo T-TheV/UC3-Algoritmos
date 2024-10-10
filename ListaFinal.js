@@ -193,7 +193,183 @@ console.log(Math.ceil(numeroStr));
 // Questão 20 
 
 /*
+let palavra = "programador";
+let letras = 0;
+for (let i = 0; i < palavra.length; i++){
+    if (palavra.charAt(i) == "a"){
+        letras++
+    }
+}
+console.log(`A quantidade de letras "a" presente é de: ${letras} letras.`);
+*/
+
+// Questão 21
+
+/*
+let str1 = "casa"
+let str2 = "CASA"
+
+let strmaiuscula1 = str1.toUpperCase()
+let strmaiuscula2 = str2.toUpperCase()
+
+function igualdade() {
+    
+
+if (strmaiuscula1 === strmaiuscula2){
+    return "True"
+}
+else{
+    return "False"
+}
+}
+console.log(igualdade())
 
 */
 
+// Questão 22
 
+/*
+let numeros = [15, 20, 25, 30]
+let maiorDez = true
+
+for (let i = 0; i < numeros.length; i++){
+    if (numeros[i] <= 10) {
+        maiorDez = false;
+        break;
+    }
+}
+
+console.log(maiorDez)
+*/
+
+// Questão 23
+
+/*
+let numeros = [15, 20, 25, 30]
+let menorCinco = true
+
+for (let i = 0; i < numeros.length; i++){
+    if (numeros[i] >= 5) {
+        menorCinco = false;
+        break;
+    }
+}
+
+console.log(menorCinco)
+*/
+
+// Questão 24
+
+/*
+let frase = " JavaScript é divertido! "
+console.log(frase.trim())
+*/
+
+// Questão 25
+
+/*
+let numeros = 7
+let maiorDez = true
+
+    if (numeros <= 10) {
+        maiorDez = maior que 10;
+        break;
+    }
+        else{
+        maiorDez = menor que 10;
+        break
+        }
+}
+
+console.log(maiorDez)
+*/
+
+// Questão 26
+
+/*
+let palavras = ["Eu", "amo", "JavaScript"];
+let palavra = palavras.join(" ");
+console.log(palavra)
+*/
+
+// Questão 27
+
+/*
+let palavra = "JavaScript"
+let separado = palavra.split(``)
+console.log(separado)
+*/
+
+// Questão 28
+
+/*
+let numero = 25
+if (numero >= 10 && numero <= 50){
+    console.log("Dentro do intervalo")
+}
+else{
+    console.log("Fora do intervalo")
+}
+
+
+*/
+
+// Questão 29
+
+/*
+let numeros = [2, 4, 6]
+let dobrados = numeros.map(function(numero) {
+    return numero * 2
+})
+console.log(dobrados)
+*/
+
+// Questão 30
+
+/*
+let str1 = "João" 
+let str2 = "joão"
+
+
+let strmaiuscula1 = str1.toUpperCase()
+let strmaiuscula2 = str2.toUpperCase()
+
+function igualdade() {
+    
+
+if (strmaiuscula1 === strmaiuscula2){
+    return "True"
+}
+else{
+    return "False"
+}
+}
+console.log(igualdade())
+*/
+
+// Questão 31
+
+/*
+let nomes = ["Pedro", "Maria", "José"]
+let ana =   nomes.unshift("Ana")
+console.log(nomes)
+*/
+
+// Questão 32
+
+/*
+let cidades = ["Natal", "Recife", "Fortaleza"]
+removeUltimo = cidades.pop()
+console.log(cidades)
+*/
+
+// Questão 33
+/*
+let numero = -8
+if (numero >= 0){
+    console.log("Positivo")
+}
+else{
+    console.log("Negativo")
+}
+*/
